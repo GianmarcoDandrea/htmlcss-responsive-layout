@@ -129,7 +129,7 @@ width: 30%;
 .navigation ul {
     list-style-type: none;
     display: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .navigation .fa-solid {
@@ -154,6 +154,7 @@ width: 30%;
 .hero {
     margin-top: 5rem;
     font-family: 'PT Sans Caption', sans-serif;
+    font-weight: bolder;
 }
 
 .row {
@@ -168,21 +169,22 @@ width: 30%;
 
 .get-app-title{
     margin-top: 2.2rem;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: var(--hero-card-title-color);
 }
 
 .get-app-text {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 2rem 0;
     line-height: 1.8rem;
     color: var(--hero-card-text-color);
 }
 
 .hero-btn {
-    width: fit-content;
-    font-size: 1.6rem;
-    padding: 1rem 3rem;
+    width: 80%;
+    max-width: 400px;
+    font-size: 1.3rem;
+    padding: 1rem 2rem;
     border-radius: 2rem;
     background-color: var(--main-blue);
     color: var(--hero-btn-text-color);
@@ -194,10 +196,27 @@ width: 30%;
 }
 
 .info-card {
-    /* debug */
     width: 100%;
-    height: 400px;
-    background-color: yellow;
+    background-color: var(--hero-card-bg-color);
+    padding: 2rem 1rem;
+}
+
+.info-card-icon {
+    width: 100%;
+    font-size: 8rem;
+    color: var(--main-blue);
+}
+
+.info-card-title {
+    font-size: 2rem;
+    color: var(--main-blue);
+}
+
+.info-card-text {
+    margin-top: 1.5rem;
+    text-align: center;
+    line-height: 1.75rem;
+    color: var(--hero-card-text-color);
 }
 
 /* strategic planning  */

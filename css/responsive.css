@@ -6,14 +6,29 @@
         width:calc(100% * 2/3 - var(--hero-gap) /2);
     }
 
+    .get-app-title {
+        text-align: start;
+    }
+    .hero-btn {
+        width: 60%;    
+    }
+
+    .get-app-rigth {
+        width: 50%;
+        justify-content: start;
+    }
+
     .info-card {
         width:calc(100% / 3 - var(--hero-gap));
-        /* debug */
-        height: 600px;
+        display: block;
+    }
+
+    .info-card-title {
+        text-align: center;
     }
 
     /* testomonial */
-    .testimony{
+    .testimony {
         flex-direction: row;
     }
 
@@ -55,6 +70,19 @@
     }
 
     /* MAIN */
+    /* hero */
+    .get-app {
+        display: flex;
+    }
+
+    .get-app-left {
+        width: 60%;
+    }
+
+    .get-app-rigth {
+        width: 40%;
+        padding: 0 1rem;
+    }
     /* strategic */
 
     .plan,
