@@ -28,6 +28,12 @@ img {
 
     /* about us */
     --about-us-gap: 2rem;
+
+    /* get started */
+    --get-started-bg-color: #9792E4;
+
+    /* footer */
+    --footer-bg-color: #000;
 }
 
 /* UTILITIES */
@@ -50,6 +56,10 @@ img {
 
 .align-end {
     align-items: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
 }
 
 .flex-column {
@@ -237,7 +247,7 @@ nav {
 .about-us-cit{
     width: 100%;
     /* debug */
-    padding: 2rem 0;
+    padding: 2rem 1rem;
     background-color: yellow;
 }
 
@@ -255,6 +265,40 @@ nav {
     /* debug */
     height: 300px;
     background-color: green;
+}
+
+/* get started */
+.get-started {
+    background-color: var(--get-started-bg-color);
+}
+
+.get-started-title {
+    width: 90%;
+    /* debug */
+    background-color: white;
+    height: 200px;
+    margin-bottom: 1rem;
+}
+
+.get-started-main{
+    width: 80%;
+    /* debug */
+    height: 500px;
+    background-color: white;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--footer-bg-color);
+    padding-bottom: 2rem;
+}
+
+.footer-text {
+    width: 75%;
+    /* debug */
+    background-color: white;
+    height: 300px;
 }
 
 

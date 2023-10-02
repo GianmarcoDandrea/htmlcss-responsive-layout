@@ -27,6 +27,15 @@
     .benefits-card {
         width: calc(100% / 2 - (var(--benefits-card-gap) / 2));
     }
+
+    /* about us */
+    .about-us-article {
+        width: calc(70% - var(--about-us-gap) / 2)
+    }
+
+    .about-us-cit {
+        width: calc(30% - var(--about-us-gap) / 2)
+    }
 }
 
 @media screen and (min-width:992px) {
