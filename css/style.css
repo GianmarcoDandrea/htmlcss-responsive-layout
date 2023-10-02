@@ -152,7 +152,7 @@ width: 30%;
 /* hero */
 
 .hero {
-    margin-top: 5rem;
+    margin: 5rem 0;
     font-family: 'PT Sans Caption', sans-serif;
     font-weight: bolder;
 }
@@ -203,19 +203,21 @@ width: 30%;
 
 .info-card-icon {
     width: 100%;
-    font-size: 8rem;
+    font-size: 7rem;
     color: var(--main-blue);
 }
 
 .info-card-title {
-    font-size: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
     color: var(--main-blue);
 }
 
 .info-card-text {
+    font-size: 1.2rem;
     margin-top: 1.5rem;
     text-align: center;
-    line-height: 1.75rem;
+    line-height: 2rem;
     color: var(--hero-card-text-color);
 }
 

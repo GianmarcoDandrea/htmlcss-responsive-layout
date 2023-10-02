@@ -20,7 +20,6 @@
 
     .info-card {
         width:calc(100% / 3 - var(--hero-gap));
-        display: block;
     }
 
     .info-card-title {
