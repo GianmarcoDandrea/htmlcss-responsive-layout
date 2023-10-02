@@ -9,7 +9,17 @@
     .info-card {
         width:calc(100% / 3 - var(--hero-gap));
         /* debug */
-        height: 500px;
+        height: 600px;
+    }
+
+    /* testomonial */
+    .testimony{
+        flex-direction: row;
+    }
+
+    .testimony .photos {
+        /* debug */
+        margin-right: 1rem;
     }
 }
 
@@ -23,7 +33,12 @@
     }
 
     /* MAIN */
-    /* hero */
+    /* strategic */
+
+    .plan,
+    .app-dev {
+        width: calc(100% / 2 - var(--strategic-gap));
+    }
 
 
 }

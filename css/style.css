@@ -16,17 +16,13 @@ img {
 
     /* hero */
     --hero-gap: 2rem;
+
+    /* strategic */
+    --strategic-bg-color: #9792E4;
+    --strategic-gap: 1rem;
 }
 
-
-/* COMMON */
-.container {
-    width: 90%;
-    margin: auto;
-    /* debug */
-    padding: 0.5rem;
-}
-
+/* UTILITIES */
 .flex-display {
     display: flex;
 }
@@ -48,8 +44,23 @@ img {
     align-items: flex-end;
 }
 
+.flex-column {
+    flex-direction: column;
+}
 
 
+/* COMMON */
+.container {
+    width: 90%;
+    margin: auto;
+    /* debug */
+    padding: 1rem 0;
+}
+
+.card{
+    border-radius: 2rem;
+    padding: 0 2rem;
+}
 
 /* HEADER */
 header {
@@ -86,21 +97,75 @@ nav {
     gap: 2rem;
 }
 
-.card{
-    border-radius: 2rem;
-    padding: 0 2rem;
-}
-
 .get-app{
     /* debug */
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-color: yellow;
 }
 
 .info-card {
     /* debug */
     width: 100%;
-    height: 300px;
+    height: 400px;
     background-color: yellow;
 }
+
+/* strategic planning  */
+
+.strategic {
+    background-color: var(--strategic-bg-color);
+}
+
+.strategic .container {
+    gap: var(--strategic-gap);
+}
+
+.plan {
+    width: 100%;
+        /* debug */
+    height: 500px;
+    background-color: yellow;
+}
+
+.app-dev {
+    width: 100%;
+    border-radius: 2rem;
+    /* debug */
+    height: 450px;
+    background-color: yellow;
+}
+
+/* testimonials */
+ .article {
+    width: 100%;
+    /* debug */
+    height: 200px;
+    background-color: yellow;
+ }
+
+ .testimony {
+    width: 100%;
+    padding: 1rem;
+    /* debug */
+    background-color: yellow;
+    margin: 2rem 0;
+ }
+
+ .photos {
+    width: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    /* debug */
+    background-color: green;
+ }
+
+ .testimony-speech {
+    width: 100%;
+    /* debug */
+    height: 200px;
+    background-color: green;
+    margin-top: 1rem;
+
+ }
+
