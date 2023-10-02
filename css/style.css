@@ -14,6 +14,11 @@ img {
     /* common */
     --main-blue: #0084FD;
 
+    /* nav */
+    --nav-text-color: #fff;
+    --nav-btn-bg-color: #fff;
+    --nav-btn-text-color: #000;
+
     /* hero */
     --hero-gap: 2rem;
 
@@ -21,10 +26,10 @@ img {
     --strategic-bg-color: #9792E4;
     --strategic-gap: 1rem;
 
-    /* benefits */
-    --benefits-bg-color: #9792E4;
-    --benefits-card-bg-color: #fff;
-    --benefits-card-gap: 2rem;
+    /* features */
+    --features-bg-color: #9792E4;
+    --features-card-bg-color: #fff;
+    --features-card-gap: 2rem;
 
     /* about us */
     --about-us-gap: 2rem;
@@ -50,6 +55,10 @@ img {
     flex-wrap: wrap;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
 .space-between {
     justify-content: space-between;
 }
@@ -58,12 +67,12 @@ img {
     align-items: flex-end;
 }
 
-.justify-center {
-    justify-content: center;
+.align-center {
+    align-items: center;
 }
 
-.flex-column {
-    flex-direction: column;
+.justify-center {
+    justify-content: center;
 }
 
 .text-center {
@@ -77,6 +86,10 @@ img {
     margin: auto;
     /* debug */
     padding: 1rem 0;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
 }
 
 .card{
@@ -94,17 +107,30 @@ header {
 }
 
 .logo {
-    /* debug */
-    width: 80px;
-    height: 50px;
-    background-color: yellow;
+width: 30%;
 }
 
-nav {
-    /* debug */
-    width: 100px;
-    height: 50px;
-    background-color: yellow;
+.navigation ul {
+    list-style-type: none;
+    display: none;
+}
+
+.navigation .fa-solid {
+    font-size: 2rem;
+    color: var(--nav-text-color);
+}
+
+.navigation a:not(.nav-btn)  {
+    text-decoration: none;
+    color: var(--nav-text-color);
+    margin-right: 1rem;
+}
+
+.nav-btn {
+    text-decoration: none;
+    border-radius: 1rem;
+    background-color: var(--nav-btn-bg-color);
+    color: var(--nav-btn-text-color);
 }
 
 /* MAIN */
@@ -191,17 +217,17 @@ nav {
 
 }
 
-/* benefits */
+/* features */
 
-.benefits{
-    background-color: var(--benefits-bg-color);
+.features{
+    background-color: var(--features-bg-color);
 }
 
-.benefits .container {
-    gap: var(--benefits-card-gap);
+.features .container {
+    gap: var(--features-card-gap);
 }
 
-.benefits-title {
+.features-title {
     width: 100%;
     margin-bottom: 2rem;
     /* debug */
@@ -209,9 +235,9 @@ nav {
     background-color: white;
 }
 
-.benefits-card {
+.features-card {
     width: 100%;
-    background-color: var(--benefits-card-bg-color);
+    background-color: var(--features-card-bg-color);
     /* debug */
     height: 400px;
 }

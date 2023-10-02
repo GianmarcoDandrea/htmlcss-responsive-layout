@@ -4,22 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <!-- LINK TO CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="flex-display">
         <div class="container flex-display space-between">
-            <div class="logo flex-display flex-center">Logo</div>
-            <nav class="navigation flex-display flex-center">Navigation</nav>
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <nav class="navigation flex-display flex-center">
+                <a href=""><i class="fa-solid fa-bars"></i></a>
+                <ul class="flex-display align-center">
+                    <li><a href="">Planning</a></li>
+                    <li><a href="">Testimonial</a></li>
+                    <li><a href="">Feature</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a class="btn nav-btn" href="">Get Started</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
     <main>
         <div class="hero">
             <div class="container">
-                <div class="row flex-display flex-wrap align-strech">
+                <div class="row flex-display flex-wrap space-between align-strech">
                     <div class="card get-app"></div>
                     <div class="card info-card"></div>
                     <div class="card info-card"></div>
@@ -43,7 +57,7 @@
                     <div class="photos"></div>
                     <div class="testimony-speech"></div>
                 </div>
-                
+
                 <div class="card testimony flex-display flex-column flex-center">
                     <div class="photos"></div>
                     <div class="testimony-speech"></div>

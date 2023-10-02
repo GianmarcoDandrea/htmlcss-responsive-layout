@@ -3,7 +3,7 @@
     /* hero */
 
     .get-app {
-        width: calc(100% * 2/3 - var(--hero-gap));
+        width:calc(100% * 2/3 - var(--hero-gap) /2);
     }
 
     .info-card {
@@ -23,9 +23,9 @@
         margin-right: 1rem;
     }
 
-    /* benefits */
-    .benefits-card {
-        width: calc(100% / 2 - (var(--benefits-card-gap) / 2));
+    /* features */
+    .features-card {
+        width: calc(100% / 2 - (var(--features-card-gap) / 2));
     }
 
     /* about us */
@@ -39,12 +39,19 @@
 }
 
 @media screen and (min-width:992px) {
-    /* HEADER */
+    /* COMMON */
     .container {
         width: 70%;
     }
-    .navigation {
-        width:450px;
+
+    /* HEADER */
+    /* nav */
+    .navigation .fa-solid {
+        display: none;
+    }
+
+    .navigation ul {
+        display: flex;
     }
 
     /* MAIN */
@@ -55,8 +62,8 @@
         width: calc(100% / 2 - var(--strategic-gap));
     }
 
-    /* benefits */
-    .benefits-card {
-        width: calc(100% / 3 - (var(--benefits-card-gap)));
+    /* features */
+    .features-card {
+        width: calc(100% / 3 - (var(--features-card-gap)));
     }
 }
