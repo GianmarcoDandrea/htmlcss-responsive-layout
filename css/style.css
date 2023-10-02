@@ -20,6 +20,11 @@ img {
     /* strategic */
     --strategic-bg-color: #9792E4;
     --strategic-gap: 1rem;
+
+    /* benefits */
+    --benefits-bg-color: #9792E4;
+    --benefits-card-bg-color: #fff;
+    --benefits-card-gap: 1rem;
 }
 
 /* UTILITIES */
@@ -46,6 +51,10 @@ img {
 
 .flex-column {
     flex-direction: column;
+}
+
+.text-center {
+    text-align: center;
 }
 
 
@@ -137,35 +146,62 @@ nav {
 }
 
 /* testimonials */
- .article {
+.article {
     width: 100%;
     /* debug */
     height: 200px;
     background-color: yellow;
- }
+}
 
- .testimony {
+.testimony {
     width: 100%;
     padding: 1rem;
     /* debug */
     background-color: yellow;
     margin: 2rem 0;
- }
+}
 
- .photos {
+.photos {
     width: 70%;
     aspect-ratio: 1/1;
     border-radius: 50%;
     /* debug */
     background-color: green;
- }
+}
 
- .testimony-speech {
+.testimony-speech {
     width: 100%;
     /* debug */
     height: 200px;
     background-color: green;
     margin-top: 1rem;
 
- }
+}
+
+/* benefits */
+
+.benefits{
+    background-color: var(--benefits-bg-color);
+}
+
+.benefits .container {
+    gap: var(--benefits-card-gap);
+}
+
+.benefits-title {
+    width: 100%;
+    margin-bottom: 2rem;
+    /* debug */
+    height: 100px;
+    background-color: white;
+}
+
+.benefits-card {
+    width: 100%;
+    background-color: var(--benefits-card-bg-color);
+    /* debug */
+    height: 300px;
+}
+
+
 
