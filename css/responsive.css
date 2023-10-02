@@ -1,18 +1,29 @@
 @media screen and (min-width:768px) {
-    .header {
+    /* MAIN */
+    /* hero */
 
+    .get-app {
+        width: calc(100% * 2/3 - 0.5rem);
     }
-    .logo{
 
+    .info-card{
+        width:calc(100% / 3 - 0.5rem);
+        /* debug */
+        height: 500px;
     }
 }
 
 @media screen and (min-width:992px) {
+    /* HEADER */
     .container {
         width: 70%;
     }
     .navigation {
         width:450px;
     }
+
+    /* MAIN */
+    /* hero */
+
 
 }
