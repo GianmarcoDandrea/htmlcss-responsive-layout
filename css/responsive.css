@@ -22,6 +22,11 @@
         /* debug */
         margin-right: 1rem;
     }
+
+    /* benefits */
+    .benefits-card {
+        width: calc(100% / 2 - (var(--benefits-card-gap) / 2));
+    }
 }
 
 @media screen and (min-width:992px) {
@@ -41,5 +46,8 @@
         width: calc(100% / 2 - var(--strategic-gap));
     }
 
-
+    /* benefits */
+    .benefits-card {
+        width: calc(100% / 3 - (var(--benefits-card-gap)));
+    }
 }

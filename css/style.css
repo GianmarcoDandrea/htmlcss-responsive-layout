@@ -24,7 +24,10 @@ img {
     /* benefits */
     --benefits-bg-color: #9792E4;
     --benefits-card-bg-color: #fff;
-    --benefits-card-gap: 1rem;
+    --benefits-card-gap: 2rem;
+
+    /* about us */
+    --about-us-gap: 2rem;
 }
 
 /* UTILITIES */
@@ -200,8 +203,58 @@ nav {
     width: 100%;
     background-color: var(--benefits-card-bg-color);
     /* debug */
-    height: 300px;
+    height: 400px;
 }
 
+/* about us */
+
+.about-us .container {
+    gap: var(--about-us-gap) ;
+}
+
+.about-us-article {
+    width: 100%;
+    /* debug */
+    padding: 2rem;
+    background-color: yellow;
+}
+
+.about-us-title {
+    width: 100%;
+    /* debug */
+    height: 150px;
+    background-color: green;
+    margin-bottom: 2rem;
+}
+
+.about-us-text{
+    width: 100%;
+    /* debug */
+    height: 600px;
+    background-color: green;
+}
+
+.about-us-cit{
+    width: 100%;
+    /* debug */
+    padding: 2rem 0;
+    background-color: yellow;
+}
+
+.about-us-cit-ph {
+    width: 70%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    /* debug */
+    background-color: green;
+    margin-bottom: 2rem;
+}
+
+.about-us-cit-text {
+    width: 100%;
+    /* debug */
+    height: 300px;
+    background-color: green;
+}
 
 
