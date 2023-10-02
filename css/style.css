@@ -10,6 +10,14 @@ img {
 }
 
 /* ROOT */
+:root {
+    /* common */
+    --main-blue: #0084FD;
+
+    /* hero */
+    --hero-gap: 2rem;
+}
+
 
 /* COMMON */
 .container {
@@ -45,7 +53,7 @@ img {
 
 /* HEADER */
 header {
-    background-color: #0084FD;
+    background-color: var(--main-blue);
     position: fixed;
     top: 0;
     left: 0;
