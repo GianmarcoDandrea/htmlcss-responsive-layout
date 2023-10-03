@@ -53,6 +53,11 @@
 }
 
 @media screen and (min-width:992px) {
+    /* ROOT */
+    :root{
+        --plan-wd: 55%;
+    }
+
     /* COMMON */
     .container {
         width: 70%;
@@ -72,6 +77,9 @@
     /* hero */
     .get-app {
         display: flex;
+        padding-right: 0;
+        flex-direction: row;
+  
     }
 
     .get-app-left {
@@ -84,9 +92,17 @@
     }
     /* strategic */
 
-    .plan,
+    .plan {
+        width: var(--plan-wd);
+    }
+
     .app-dev {
-        width: calc(100% / 2 - var(--strategic-gap));
+        width: calc(100% - var(--plan-wd) - var(--strategic-gap) );
+    }
+
+    .app-dev img {
+        width: 80%;
+        margin: auto;
     }
 
     /* features */
