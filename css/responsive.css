@@ -3,7 +3,7 @@
     /* hero */
 
     .get-app {
-        width:calc(100% * 2/3 - var(--hero-gap) /2);
+        width:calc(100% / 3 * 2  - (var(--hero-gap) / 3 ));
     }
 
     .get-app-title {
@@ -19,7 +19,7 @@
     }
 
     .info-card {
-        width:calc(100% / 3 - var(--hero-gap));
+        width:calc(100% / 3 - (2 *var(--hero-gap) / 3 ));
     }
 
     .info-card-title {
