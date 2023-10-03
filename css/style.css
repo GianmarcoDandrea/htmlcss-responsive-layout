@@ -64,9 +64,17 @@ img {
     
     /* get started */
     --get-started-bg-color: #9792E4;
+    --get-started-mini-title-color: #c0bdee;
+    --get-started-title-color:#fff;
+    --get-started-free-color:#fdc15f;
+    --get-started-text-color:#fff;
+    --get-started-btn-bg-color: #fff;
+    --get-started-btn-text-color: #9792E4;
 
     /* footer */
-    --footer-bg-color: #000;
+    --footer-bg-color: #333333;
+    --footer-text-color: #fff;
+    --footer-link-color: #807BBB;
 }
 
 /* UTILITIES */
@@ -504,33 +512,69 @@ width: 30%;
     background-color: var(--get-started-bg-color);
 }
 
-.get-started-title {
-    width: 90%;
-    /* debug */
-    background-color: white;
-    height: 200px;
-    margin-bottom: 1rem;
+.get-started-mini-title {
+    color: var(--get-started-mini-title-color);
+    margin: 2rem 0;
 }
 
-.get-started-main{
-    width: 80%;
-    /* debug */
-    height: 500px;
-    background-color: white;
+.get-started-title {
+    font-size: 3rem;
+    color: var(--get-started-title-color);
+    margin-bottom: 2rem;
 }
+
+.get-started-free{
+    font-size: 8rem;
+    color: var(--get-started-free-color);
+}
+
+.get-started-text {
+    font-size: 1.5rem;
+    color: var(--get-started-text-color);
+}
+
+.get-started-btn {
+    padding: 1.5rem 3rem;
+    border-radius: 2rem;
+    background-color: var(--get-started-btn-bg-color);
+    color: var(--get-started-btn-text-color);
+    margin: 3rem 0;
+}
+
+.get-started-footer {
+    color: var(--get-started-text-color);    
+}
+
+.get-started-footer a {
+    color: var(--get-started-text-color);
+}
+
+.fa-circle {
+    font-size: 0.3rem ;
+    margin: 0 0.5rem;
+}
+
+
 
 /* FOOTER */
 
 footer {
     background-color: var(--footer-bg-color);
-    padding-bottom: 2rem;
+    padding-bottom: 2rem; 
+    color: var(--footer-text-color) ;
 }
 
-.footer-text {
+.footer-text,
+.footer-link {
+    margin: auto;
+    padding-top: 3rem;
     width: 75%;
-    /* debug */
-    background-color: white;
-    height: 300px;
 }
+
+.footer-link a {
+    color: var(--footer-link-color);
+}
+
+
 
 
