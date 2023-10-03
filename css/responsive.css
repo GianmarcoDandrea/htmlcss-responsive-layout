@@ -10,7 +10,7 @@
         text-align: start;
     }
     .hero-btn {
-        width: 60%;    
+        width: 60%;
     }
 
     .get-app-rigth {
@@ -50,6 +50,10 @@
         width: calc(70% - var(--about-us-gap) / 2)
     }
 
+    .fa-quote-left {
+        font-size: 4rem;
+    }
+
     .about-us-cit {
         width: calc(30% - var(--about-us-gap) / 2)
     }
@@ -82,7 +86,7 @@
         display: flex;
         padding-right: 0;
         flex-direction: row;
-  
+
     }
 
     .get-app-left {
@@ -112,4 +116,11 @@
     .features-card {
         width: calc(100% / 3 - (var(--features-card-gap)));
     }
+
+    /* about us */
+    .fa-quote-left {
+        font-size: 5rem;
+    }
+
+
 }

@@ -55,10 +55,13 @@ img {
     --feature-card-text-color: #7a7a7a;
     --features-card-btn-bg-color:#9792E4;
 
-
     /* about us */
     --about-us-gap: 2rem;
-
+    --about-us-title-color: #9792E4;
+    --about-us-cit-text-color: #9792E4;
+    --linkedin-btn-bg-color:#9792E4;
+    --linkedin-btn-text-color:#fff;
+    
     /* get started */
     --get-started-bg-color: #9792E4;
 
@@ -116,6 +119,14 @@ img {
     text-decoration: none;
 }
 
+.pos-rel {
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
 
 /* COMMON */
 .container {
@@ -141,6 +152,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 9999;
 }
 
 .logo {
@@ -424,52 +436,67 @@ width: 30%;
 /* about us */
 
 .about-us .container {
-    gap: var(--about-us-gap) ;
+    gap: var(--about-us-gap);
+    padding-bottom: 3rem;
 }
 
 .about-us-article {
     width: 100%;
-    /* debug */
-    padding: 2rem;
-    background-color: yellow;
+
 }
 
 .about-us-title {
     width: 100%;
-    /* debug */
-    height: 150px;
-    background-color: green;
-    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: var(--about-us-cit-text-color);
+    margin: 2rem 0;
 }
 
 .about-us-text{
-    width: 100%;
-    /* debug */
-    height: 600px;
-    background-color: green;
+    width: 100%;    
+}
+
+.about-us-text p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin: 2rem 0;
 }
 
 .about-us-cit{
-    width: 100%;
-    /* debug */
-    padding: 2rem 1rem;
-    background-color: yellow;
+    width: 60%;
 }
 
-.about-us-cit-ph {
-    width: 70%;
+.about-us-cit-ph img{
+    width: 100%;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    /* debug */
-    background-color: green;
-    margin-bottom: 2rem;
 }
 
+.fa-quote-left {
+    top: 0;
+    right: 0;
+    font-size: 4rem;
+    color: var(--about-us-cit-text-color);
+    z-index: 2;
+}
+
+
 .about-us-cit-text {
+    font-weight: bolder;
     width: 100%;
-    /* debug */
-    height: 300px;
-    background-color: green;
+    font-size: 2rem;
+    color: var(--about-us-cit-text-color);
+    line-height: 3rem;
+    margin: 1.5rem 0;
+}
+
+.linkedin-btn {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    background-color: var(--linkedin-btn-bg-color);
+    color: var(--linkedin-btn-text-color);
 }
 
 /* get started */
