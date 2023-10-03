@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'PT Sans', sans-serif;
 }
 
@@ -53,21 +53,21 @@ img {
     --features-card-gap: 2rem;
     --feature-card-title-color: #9792E4;
     --feature-card-text-color: #7a7a7a;
-    --features-card-btn-bg-color:#9792E4;
+    --features-card-btn-bg-color: #9792E4;
 
     /* about us */
     --about-us-gap: 2rem;
     --about-us-title-color: #9792E4;
     --about-us-cit-text-color: #9792E4;
-    --linkedin-btn-bg-color:#9792E4;
-    --linkedin-btn-text-color:#fff;
-    
+    --linkedin-btn-bg-color: #9792E4;
+    --linkedin-btn-text-color: #fff;
+
     /* get started */
     --get-started-bg-color: #9792E4;
     --get-started-mini-title-color: #c0bdee;
-    --get-started-title-color:#fff;
-    --get-started-free-color:#fdc15f;
-    --get-started-text-color:#fff;
+    --get-started-title-color: #fff;
+    --get-started-free-color: #fdc15f;
+    --get-started-text-color: #fff;
     --get-started-btn-bg-color: #fff;
     --get-started-btn-text-color: #9792E4;
 
@@ -95,7 +95,7 @@ img {
     flex-direction: column;
 }
 
-.flex-start{
+.flex-start {
     justify-content: start;
 }
 
@@ -108,7 +108,7 @@ img {
 }
 
 .self-end {
-    align-self:end;
+    align-self: end;
 }
 
 .align-center {
@@ -148,7 +148,7 @@ img {
     padding: 0.5rem 1rem;
 }
 
-.card{
+.card {
     border-radius: 2rem;
     padding: 0 2rem;
 }
@@ -164,7 +164,7 @@ header {
 }
 
 .logo {
-width: 30%;
+    width: 30%;
 }
 
 .navigation ul {
@@ -178,7 +178,7 @@ width: 30%;
     color: var(--nav-text-color);
 }
 
-.navigation a:not(.nav-btn)  {
+.navigation a:not(.nav-btn) {
     color: var(--nav-text-color);
     margin-right: 1rem;
 }
@@ -203,12 +203,12 @@ width: 30%;
     gap: 2rem;
 }
 
-.get-app{
+.get-app {
     width: 100%;
     background-color: var(--hero-card-bg-color);
 }
 
-.get-app-title{
+.get-app-title {
     margin-top: 2.2rem;
     font-size: 1.5rem;
     color: var(--hero-card-title-color);
@@ -314,7 +314,7 @@ width: 30%;
     aspect-ratio: 1/1;
     font-size: 1.5rem;
     color: var(--strategic-app-nev-btn-text-color);
-    background-color: var(--strategic-app-nev-btn-bg-color) ;
+    background-color: var(--strategic-app-nev-btn-bg-color);
     padding: 1rem;
     border-radius: 50%;
 }
@@ -323,6 +323,7 @@ width: 30%;
 .article {
     width: 100%;
 }
+
 .mini-title {
     margin: 2rem 0;
     font-size: 1rem;
@@ -346,7 +347,7 @@ width: 30%;
     margin: 2rem 0;
 }
 
-.photos{
+.photos {
     width: 80%;
     aspect-ratio: 1/1;
     border-radius: 50%;
@@ -354,7 +355,7 @@ width: 30%;
     background-position: center;
 }
 
-.nr1{
+.nr1 {
     background-image: var(--testimonials-photos-1);
 }
 
@@ -391,7 +392,7 @@ width: 30%;
 
 /* features */
 
-.features{
+.features {
     background-color: var(--features-bg-color);
 }
 
@@ -425,6 +426,7 @@ width: 30%;
     color: var(--feature-card-title-color);
     margin-bottom: 1.5rem;
 }
+
 .features-card-text {
     font-size: 1.2rem;
     color: var(--feature-card-text-color);
@@ -461,8 +463,8 @@ width: 30%;
     margin: 2rem 0;
 }
 
-.about-us-text{
-    width: 100%;    
+.about-us-text {
+    width: 100%;
 }
 
 .about-us-text p {
@@ -471,11 +473,11 @@ width: 30%;
     margin: 2rem 0;
 }
 
-.about-us-cit{
+.about-us-cit {
     width: 60%;
 }
 
-.about-us-cit-ph img{
+.about-us-cit-ph img {
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 50%;
@@ -523,7 +525,7 @@ width: 30%;
     margin-bottom: 2rem;
 }
 
-.get-started-free{
+.get-started-free {
     font-size: 8rem;
     color: var(--get-started-free-color);
 }
@@ -542,7 +544,7 @@ width: 30%;
 }
 
 .get-started-footer {
-    color: var(--get-started-text-color);    
+    color: var(--get-started-text-color);
 }
 
 .get-started-footer a {
@@ -550,7 +552,7 @@ width: 30%;
 }
 
 .fa-circle {
-    font-size: 0.3rem ;
+    font-size: 0.3rem;
     margin: 0 0.5rem;
 }
 
@@ -560,8 +562,8 @@ width: 30%;
 
 footer {
     background-color: var(--footer-bg-color);
-    padding-bottom: 2rem; 
-    color: var(--footer-text-color) ;
+    padding-bottom: 2rem;
+    color: var(--footer-text-color);
 }
 
 .footer-text,
@@ -574,7 +576,3 @@ footer {
 .footer-link a {
     color: var(--footer-link-color);
 }
-
-
-
-
