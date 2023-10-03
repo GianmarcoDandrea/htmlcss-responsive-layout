@@ -49,7 +49,12 @@ img {
     /* features */
     --features-bg-color: #9792E4;
     --features-card-bg-color: #fff;
+    --features-title-color: #fff;
     --features-card-gap: 2rem;
+    --feature-card-title-color: #9792E4;
+    --feature-card-text-color: #7a7a7a;
+    --features-card-btn-bg-color:#9792E4;
+
 
     /* about us */
     --about-us-gap: 2rem;
@@ -377,16 +382,43 @@ width: 30%;
 .features-title {
     width: 100%;
     margin-bottom: 2rem;
-    /* debug */
-    height: 100px;
-    background-color: white;
+    font-size: 1.7rem;
+    color: var(--features-title-color);
 }
 
 .features-card {
     width: 100%;
     background-color: var(--features-card-bg-color);
-    /* debug */
-    height: 400px;
+    padding-bottom: 2rem;
+}
+
+.features-card-number {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: var(--features-bg-color);
+    margin: 1.5rem 0;
+}
+
+.feature-card-title {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: var(--feature-card-title-color);
+    margin-bottom: 1.5rem;
+}
+.features-card-text {
+    font-size: 1.2rem;
+    color: var(--feature-card-text-color);
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.features-card-btn {
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: 0.7rem 2.5rem;
+    border-radius: 2rem;
+    background-color: var(--features-card-btn-bg-color);
+    color: var(--features-title-color);
 }
 
 /* about us */
