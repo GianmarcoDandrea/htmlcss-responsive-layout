@@ -38,6 +38,9 @@ img {
     --strategic-app-nev-btn-bg-color: #9792E4;
     --strategic-app-nev-btn-text-color: #000;
 
+    /* testimonials */
+    --article-title-text-color: #9792E4;
+
     /* features */
     --features-bg-color: #9792E4;
     --features-card-bg-color: #fff;
@@ -289,9 +292,21 @@ width: 30%;
 /* testimonials */
 .article {
     width: 100%;
-    /* debug */
-    height: 200px;
-    background-color: yellow;
+}
+.mini-title {
+    margin: 2rem 0;
+    font-size: 1rem;
+}
+
+.article-title {
+    font-size: 2.5rem;
+    color: var(--article-title-text-color);
+}
+
+.article-text {
+    margin: 2rem 0;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
 }
 
 .testimony {
