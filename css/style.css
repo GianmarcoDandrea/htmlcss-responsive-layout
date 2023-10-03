@@ -40,6 +40,11 @@ img {
 
     /* testimonials */
     --article-title-text-color: #9792E4;
+    --testimonials-photos-1: url(../img/testimonial1.jpg);
+    --testimonials-photos-2: url(../img/testimonial2.jpg);
+    --testimonials-photos-3: url(../img/testimonial3.jpg);
+    --testimonials-card-bf-color: #9792E4;
+    --testimony-speech-text-color: #fff;
 
     /* features */
     --features-bg-color: #9792E4;
@@ -311,28 +316,53 @@ width: 30%;
 
 .testimony {
     width: 100%;
-    padding: 1rem;
-    /* debug */
-    background-color: yellow;
+    padding: 2rem 1rem;
+    background-color: var(--testimonials-card-bf-color);
     margin: 2rem 0;
 }
 
-.photos {
-    width: 70%;
+.photos{
+    width: 80%;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    /* debug */
-    background-color: green;
+    background-size: cover;
+    background-position: center;
+}
+
+.nr1{
+    background-image: var(--testimonials-photos-1);
+}
+
+.nr2 {
+    background-image: var(--testimonials-photos-2);
+}
+
+.nr3 {
+    background-image: var(--testimonials-photos-3);
 }
 
 .testimony-speech {
     width: 100%;
-    /* debug */
-    height: 200px;
-    background-color: green;
-    margin-top: 1rem;
-
+    color: var(--testimony-speech-text-color);
 }
+
+.testimony-speech .fa-solid {
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+}
+
+.speech {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.author {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
 
 /* features */
 

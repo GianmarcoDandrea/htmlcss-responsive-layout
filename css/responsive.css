@@ -33,8 +33,11 @@
 
     .testimony .photos {
         width: 30%;
-        /* debug */
-        margin-right: 1rem;
+        margin-right: 3rem;
+    }
+
+    .testimony-speech {
+        text-align: start;
     }
 
     /* features */
