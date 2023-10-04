@@ -40,9 +40,6 @@ img {
 
     /* testimonials */
     --article-title-text-color: #9792E4;
-    --testimonials-photos-1: url(../img/testimonial1.jpg);
-    --testimonials-photos-2: url(../img/testimonial2.jpg);
-    --testimonials-photos-3: url(../img/testimonial3.jpg);
     --testimonials-card-bf-color: #9792E4;
     --testimony-speech-text-color: #fff;
 
@@ -349,22 +346,13 @@ header {
 
 .photos {
     width: 80%;
+}
+
+.photos img {
+    width: 100%;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    background-size: cover;
-    background-position: center;
-}
-
-.nr1 {
-    background-image: var(--testimonials-photos-1);
-}
-
-.nr2 {
-    background-image: var(--testimonials-photos-2);
-}
-
-.nr3 {
-    background-image: var(--testimonials-photos-3);
+    object-fit: cover;
 }
 
 .testimony-speech {
@@ -483,14 +471,13 @@ header {
     border-radius: 50%;
 }
 
-.fa-quote-left {
+.about-us-cit .fa-quote-left {
     top: 0;
     right: 0;
     font-size: 4rem;
     color: var(--about-us-cit-text-color);
     z-index: 2;
 }
-
 
 .about-us-cit-text {
     font-weight: bolder;

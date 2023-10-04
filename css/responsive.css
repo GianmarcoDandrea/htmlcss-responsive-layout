@@ -121,9 +121,8 @@
     }
 
     /* about us */
-    .fa-quote-left {
-        font-size: 5rem;
+    
+    .about-us-cit .fa-quote-left {
+        font-size: 7rem;
     }
-
-
 }
